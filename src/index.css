@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 * {
   margin: 0;
@@ -64,7 +65,8 @@
   padding: 20px;
   border-radius: 11px;
   background: url("bg2.jpg");
-  box-shadow: 20px 20px 40px #201e1eb7, -20px -20px 40px #e2e0e0;
+  box-shadow: 20px 20px 40px #201e1eb7, -20px -20px 40px #e2e0e2;
+  font-family: 'Poppins', sans-serif;
 }
 
 .wrapper .form-container .btn {
@@ -75,7 +77,10 @@
   height: 110px;
   width: 110px;
   border-radius: 50%;
-  box-shadow: 20px 20px 40px #201e1eb7, -10px -10px 20px #c3a4c5;
+  box-shadow: 20px 20px 40px #520e48b7, -10px -10px 20px #ff71d0;
+}
+.wrapper .form-container .btn:hover {
+    border: 2px solid black;
 }
 
 .wrapper .main-container {
@@ -85,14 +90,14 @@
   display: flex;
   flex-direction: column;
   border-radius: 3px;
-
+  font-family: 'Poppins', sans-serif;
   background: #f0eeee;
   box-shadow: 20px 20px 40px #c3c3c3, -20px -20px 40px #fdfdfd;
 }
 
 .wrapper .form-container .form-control {
-  border: 2px solid black;
-  box-shadow: 20px 20px 40px #595151, -20px -20px 40px #d40ec1;
+  border: 2px solid rgb(84, 6, 6);
+  box-shadow: 20px 20px 40px #641a4e, -20px -20px 40px #b8138c;
   width: 400px;
 }
 .delete-btn {

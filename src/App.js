@@ -47,7 +47,7 @@ export const App = () => {
 
   return (
     <div className="wrapper">
-      <button className="link"><a className="link1" href="https://github.com/ParamPragyan/fitness_club_bullseye">➱Source-Code: GitHub</a></button>
+      <button className="link"><a target="_blank" className="link1" href="https://github.com/ParamPragyan/fitness_club_bullseye">➱Source-Code: GitHub</a></button>
       <h1>BookList Maintenance Form</h1>
       <p>Add and view your books using local storage</p>
       <div className="main">

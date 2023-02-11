@@ -13,15 +13,12 @@ const getDatafromLS = () => {
 export const App = () => {
   const [books, setbooks] = useState(getDatafromLS());
 
-  // input field states
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState("");
   const [isbn, setIsbn] = useState("");
 
-  // form submit event
   const handleAddBookSubmit = (e) => {
     e.preventDefault();
-    // creating an object
     let book = {
       title,
       author,
@@ -33,7 +30,6 @@ export const App = () => {
     setIsbn("");
   };
 
-  // delete book from LS
   const deleteBook = (isbn) => {
     const filteredBooks = books.filter((element, index) => {
       return element.isbn !== isbn;
@@ -47,7 +43,15 @@ export const App = () => {
 
   return (
     <div className="wrapper">
-      <button className="link"><a target="_blank" className="link1" href="https://github.com/ParamPragyan/fitness_club_bullseye">➱Source-Code: GitHub</a></button>
+      <button className="link">
+        <a
+          target="_blank"
+          className="link1"
+          href="https://github.com/ParamPragyan/fitness_club_bullseye"
+        >
+          ➱Source-Code: GitHub
+        </a>
+      </button>
       <h1>BookList Maintenance Form</h1>
       <p>Add and view your books using local storage</p>
       <div className="main">

@@ -50,6 +50,8 @@
 
 .wrapper .main {
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 20px;
   align-items: center;
 }
@@ -103,4 +105,55 @@
 .delete-btn {
   color: rgb(255, 0, 234);
   cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  
+  .wrapper .main {
+    flex-direction: column;
+    padding-top: 1rem;
+
+  }
+  .wrapper .form-container {
+    height: 400px;
+    width: 450px;
+  }
+  .wrapper .form-container .btn{
+        margin-left: 7.7rem;
+  }
+  .wrapper .main-container{
+    width: 450px;
+    margin-top: 4rem;
+
+
+  }
+  .wrapper .form-container .form-control {
+    width: 350px;
+    -top: 4rem;
+  }
+  .wrapper .link {
+     top: 53rem;
+     right: 1.7rem;
+
+  }
+}
+@media screen and (max-width: 500px) {
+ 
+  .wrapper .form-container {
+    height: 420px;
+    width: 370px;
+  }
+  .wrapper .form-container .form-control {
+    width: 320px;
+    
+}
+.wrapper .form-container .btn{
+  margin-left: 6.6rem;
+}
+.wrapper .main-container{
+  width: 370px;
+  margin-top: 4rem;
+
+}
+
 }

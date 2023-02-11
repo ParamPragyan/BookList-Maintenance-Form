@@ -112,6 +112,7 @@
   .wrapper .main {
     flex-direction: column;
     padding-top: 1rem;
+    overflow: none;
 
   }
   .wrapper .form-container {
@@ -132,8 +133,9 @@
     -top: 4rem;
   }
   .wrapper .link {
-     top: 53rem;
+     top: 49rem;
      right: 1.7rem;
+     display: none;
 
   }
 }

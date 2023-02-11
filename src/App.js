@@ -52,8 +52,10 @@ export const App = () => {
           ➱Source-Code: GitHub
         </a>
       </button>
+      <div className="heading">
       <h1>BookList Maintenance Form</h1>
       <p>Add and view your books using local storage</p>
+      </div>
       <div className="main">
         <div className="form-container">
           <form

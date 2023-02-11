@@ -15,6 +15,26 @@
   background-size: cover;
 }
 
+.wrapper .link {
+  position: absolute;
+  top: 4rem;
+  right: 6rem;
+  font-family: "Walter Turncoat";
+  padding: 5px;
+  background-color: #d40ec038;
+  text-decoration: none;
+}
+.wrapper .link1 {
+  text-decoration: none;
+  color: black;
+}
+.wrapper .link1:hover {
+  background-color: #d40ec1;
+  color: #fdfdfd;
+}
+.wrapper .link:hover {
+  background-color: #d40ec1;
+}
 .wrapper h1 {
   margin-top: 50px;
   text-align: center;
